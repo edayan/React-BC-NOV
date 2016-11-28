@@ -2,7 +2,7 @@ var webpack = require('webpack');
 const path = require('path');
 
 var config = {
-  entry : [path.join(__dirname, '/src/Emily.jsx')],
+  entry : [path.join(__dirname, './src/Index.jsx')],
   devtool: 'source-map',
   module : {
     loaders : [
