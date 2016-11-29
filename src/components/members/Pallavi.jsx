@@ -6,13 +6,11 @@ const Pallavi = () => (
   <Card expanded={false}>
 
     <CardMedia>
-      <img src="img/edayan-info.jpg" />
+      <img src="img/pallavi.jpg" />
     </CardMedia>
     <CardTitle title="Pallavi" subtitle="BC Support:Bangalore" />
     <CardText>
-      born:Feb-23
-      <br/>
-      <a href="" target="_blank">link</a>
+      <a href="" target="_blank">The painter</a>
     </CardText>
 
   </Card>

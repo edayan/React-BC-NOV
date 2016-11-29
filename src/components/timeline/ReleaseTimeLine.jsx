@@ -1,8 +1,12 @@
 import React, { PropTypes } from 'react'
 import HorizontalTimelineContent from './HorizontalTimelineContent';
 
-import GameInfo from './content/content';
+import ReleaseInfo from './content/content';
 
+
+const releaseInfoStyle = {
+  color: '#673AB7',
+};
 
 class ReleaseTimeLine extends React.Component {
 
@@ -12,13 +16,16 @@ class ReleaseTimeLine extends React.Component {
   }
 
   componentWillMount() {
-      this.data = GameInfo.map((game, index) => {
+      this.data = ReleaseInfo.map((game, index) => {
         return ({
           date: game.date,
           component: (
             <div className='container' key={index}>
-              <h2>{ game.title }</h2>
-              <h2>{ game.subtitle }</h2>
+              <div style ={releaseInfoStyle}>
+                <h2>{ game.title }</h2>
+                <h2>{ game.subtitle }</h2>
+              </div>
+
 
               <img src={game.avatarURL}></img>
             </div>

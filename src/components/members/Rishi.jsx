@@ -6,13 +6,11 @@ const Rishi = () => (
   <Card expanded={false}>
 
     <CardMedia>
-      <img src="img/edayan-info.jpg" />
+      <img src="img/rishi.jpg" />
     </CardMedia>
     <CardTitle title="Rishi" subtitle="BC Support:Denmark" />
     <CardText>
-      born:Feb-23
-      <br/>
-      <a href="" target="_blank">link</a>
+      <a href="" target="_blank">The all-rounder</a>
     </CardText>
 
   </Card>

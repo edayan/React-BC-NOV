@@ -4,7 +4,7 @@ module.exports = [
   {
     date: '11/27/2016',
     avatarURL: 'img/oh-my-god.jpg',
-    title: 'its only 8 PM',
+    title: 'Its only 8 PM',
     subtitle: 'Why this early....?',
   }, {
     date: '11/27/2016',
@@ -19,7 +19,7 @@ module.exports = [
   }, {
     date: '11/27/2016',
     avatarURL: 'img/cafe-latte.jpg',
-    title: 'Its getting cold...',
+    title: 'It\'s getting cold...',
     subtitle: 'Caffe latte...',
   }, {
     date: '11/28/2016',
@@ -29,7 +29,7 @@ module.exports = [
   }, {
     date: '11/28/2016',
     avatarURL: 'img/any-body-can-dance.jpg',
-    title: 'Anybody can dance',
+    title: 'Anybody can dance..',
     subtitle: 'If manisha teaches....',
   }, {
     date: '11/28/2016',
@@ -70,17 +70,27 @@ module.exports = [
     date: '11/28/2016',
     avatarURL: 'img/its-too-working.jpg',
     title: 'Some how it is working now...',
-    subtitle: 'Release is going to be completed...',
+    subtitle: 'Release is going to be completed soon...',
   }, {
     date: '11/28/2016',
     avatarURL: 'img/rishi-confirms.jpg',
     title: 'Ok.. Release is completed...',
-    subtitle: 'I am confirming that.....',
+    subtitle: '',
   }, {
     date: '11/28/2016',
     avatarURL: 'img/go-home.jpg',
-    title: 'Rishi said release is over...What are you waiting for???',
+    title: 'I said release is over...What are you waiting for???',
     subtitle: 'Go home man....',
+  }, {
+    date: '11/28/2016',
+    avatarURL: 'img/foggy-morning.jpg',
+    title: 'Its a foggy morning',
+    subtitle: '',
+  }, {
+    date: '11/28/2016',
+    avatarURL: 'img/walking-in-morning.jpg',
+    title: 'Let\'s go for a walk..',
+    subtitle: '',
   }, {
     date: '11/28/2016',
     avatarURL: 'img/idli-vada.jpg',
@@ -89,8 +99,8 @@ module.exports = [
   }, {
     date: '11/28/2016',
     avatarURL: 'img/ok-bye.jpg',
-    title: 'Ok bye....',
-    subtitle: 'See you on next release....',
+    title: 'See you on next release....',
+    subtitle: '',
   }, {
     date: '11/28/2016',
     avatarURL: 'img/forgot-to-say.jpg',

@@ -10,8 +10,6 @@ const Saju = () => (
     </CardMedia>
     <CardTitle title="Saju" subtitle="BC Support:Bangalore" />
     <CardText>
-      born:Feb-23
-      <br/>
       <a href="http://edayan.info/" target="_blank">www.edayan.info</a>
     </CardText>
 

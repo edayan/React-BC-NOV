@@ -6,13 +6,11 @@ const Manisha = () => (
   <Card expanded={false}>
 
     <CardMedia>
-      <img src="img/edayan-info.jpg" />
+      <img src="img/manisha.jpg" />
     </CardMedia>
     <CardTitle title="Manisha" subtitle="BC Support:Bangalore" />
     <CardText>
-      born:Feb-23
-      <br/>
-      <a href="" target="_blank">link</a>
+      <a href="" target="_blank">The dancer</a>
     </CardText>
 
   </Card>

@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 const path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var config = {
   entry : [path.join(__dirname, './src/Index.jsx')],
@@ -29,6 +30,11 @@ var config = {
         warnings: false,
       },
       output: {comments: false}
+    }),
+    new HtmlWebpackPlugin({
+      template: __dirname + '/src/index.html',
+      filename: 'index.html',
+      inject: 'body'
     })
   ]
 }
